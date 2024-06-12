@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.welcome-section {
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    background-color: #f9f9f9;
+}
+.welcome-section img {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.welcome-text {
+    max-width: 500px;
+}
+.welcome-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.welcome-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.read-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}

@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+}
+.teachers{
+    text-align: center;
+    padding: 10px;
+}
+.teacher-section{
+    padding: 10px;
+}
+.teacher-section h1{
+    font-size: 36px;
+}
+.teacher-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px ;
+}
+.teacher-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+.teacher-item img {
+    height:90%;
+    width: 200px;
+    border-radius: 5px;
+}
+.teacher-item h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
